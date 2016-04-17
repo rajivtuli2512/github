@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ipp.Recruitment", "D:\ippayment\Ipp.Recruitment\", "{CE5A6143-7694-4310-B158-7E9DFE1F96D9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49443"
+		Debug.AspNetCompiler.PhysicalPath = "D:\ippayment\Ipp.Recruitment\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49443\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49443"
+		Release.AspNetCompiler.PhysicalPath = "D:\ippayment\Ipp.Recruitment\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49443\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49443"
+		SlnRelativePath = "D:\ippayment\Ipp.Recruitment\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPaymentServices Tests", "IPaymentServices Tests\IPaymentServices Tests.csproj", "{97A48811-68E1-4BC4-AA11-AA81ABD0164C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE5A6143-7694-4310-B158-7E9DFE1F96D9} = {CE5A6143-7694-4310-B158-7E9DFE1F96D9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE5A6143-7694-4310-B158-7E9DFE1F96D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5A6143-7694-4310-B158-7E9DFE1F96D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5A6143-7694-4310-B158-7E9DFE1F96D9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5A6143-7694-4310-B158-7E9DFE1F96D9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{97A48811-68E1-4BC4-AA11-AA81ABD0164C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A48811-68E1-4BC4-AA11-AA81ABD0164C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A48811-68E1-4BC4-AA11-AA81ABD0164C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A48811-68E1-4BC4-AA11-AA81ABD0164C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
